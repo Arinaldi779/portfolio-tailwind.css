@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Tailwind Css</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body>
+    
+
+    <!-- Header nav start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4 ">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">Surya Arinaldi</a>
+                </div>
+                <div class="flex items-center px-4 ">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"</span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header nav end -->
+
+    <!-- Hero section start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua👋, saya <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Surya Arinaldi</span></h1>
+                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Mahasiswa & <span class="text-dark ">Junior Programmer</span></h2>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">Belajar web programming itu mudah dan menyenangkan bukan. <span class="text-dark font-bold ">bukan!</span></p>
+
+                    <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="mt-10 relative lg:mt-9 lg:right-0">
+                        <img src="dist/img/profil.png" alt="Ayangku" class="max-w-full mx-auto">
+                        <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#E4003A" d="M40.4,-59.2C52.6,-46.8,62.7,-35.2,64.9,-22.5C67.1,-9.8,61.3,4.1,57.8,20C54.4,35.9,53.2,53.8,44,62.2C34.7,70.6,17.4,69.6,2.4,66.3C-12.5,62.9,-25.1,57.4,-35.9,49.5C-46.7,41.6,-55.8,31.3,-63.9,18.1C-71.9,4.8,-78.8,-11.5,-74.2,-23.6C-69.6,-35.8,-53.6,-43.7,-39.3,-55.4C-25,-67.1,-12.5,-82.6,0.8,-83.7C14.1,-84.8,28.3,-71.6,40.4,-59.2Z" transform="translate(100 100) scale(1.1)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2 ">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Yuk, belajar web programming bersama aku</h2>
+                    <p class="text-base text-secondary max-w-xl lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores fuga suscipit nihil nisi quas pariatur obcaecati!</p>
+                </div>
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:pt-10">Mari berteman</h3>
+                    <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsam rem obcaecati possimus provident porro nesciunt eaque consectetur.</p>
+                    <div class="flex items-center">
+                        <!-- Youtube -->
+                        <a href="https://youtube.com" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                                <path d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z"></path>
+                                </svg>
+                        </a>
+                        <!-- Instagram -->
+                        <a href="https://instagram.com/_arinaldisrya" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-500 hover:border-primary hover:bg-primary hover:text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 80 80" class="fill-current">
+                                <path d="M 26.816406 9 C 17.542969 9 10 16.542969 10 25.816406 L 10 52.183594 C 10 61.457031 17.542969 69 26.816406 69 L 53.183594 69 C 62.457031 69 70 61.457031 70 52.183594 L 70 25.816406 C 70 16.542969 62.457031 9 53.183594 9 Z M 26.816406 11 L 53.183594 11 C 61.375 11 68 17.625 68 25.816406 L 68 52.183594 C 68 60.375 61.375 67 53.183594 67 L 26.816406 67 C 18.625 67 12 60.375 12 52.183594 L 12 25.816406 C 12 17.625 18.625 11 26.816406 11 Z M 58 19.5 C 56.621094 19.5 55.5 20.621094 55.5 22 C 55.5 23.378906 56.621094 24.5 58 24.5 C 59.378906 24.5 60.5 23.378906 60.5 22 C 60.5 20.621094 59.378906 19.5 58 19.5 Z M 40 22 C 30.621094 22 23 29.621094 23 39 C 23 48.378906 30.621094 56 40 56 C 49.378906 56 57 48.378906 57 39 C 57 29.621094 49.378906 22 40 22 Z M 40 24 C 48.296875 24 55 30.703125 55 39 C 55 47.296875 48.296875 54 40 54 C 31.703125 54 25 47.296875 25 39 C 25 30.703125 31.703125 24 40 24 Z M 40 27 C 39.449219 27 39 27.449219 39 28 C 39 28.550781 39.449219 29 40 29 C 40.550781 29 41 28.550781 41 28 C 41 27.449219 40.550781 27 40 27 Z M 35.796875 27.835938 C 35.664063 27.835938 35.53125 27.859375 35.40625 27.910156 C 34.898438 28.125 34.65625 28.707031 34.867188 29.21875 C 35.078125 29.730469 35.664063 29.972656 36.171875 29.761719 C 36.683594 29.546875 36.925781 28.964844 36.714844 28.453125 C 36.5625 28.082031 36.199219 27.839844 35.796875 27.835938 Z M 44.230469 27.835938 C 43.816406 27.828125 43.441406 28.070313 43.285156 28.453125 C 43.074219 28.964844 43.316406 29.546875 43.828125 29.761719 C 44.335938 29.972656 44.921875 29.730469 45.132813 29.21875 C 45.34375 28.707031 45.101563 28.125 44.59375 27.910156 C 44.476563 27.863281 44.355469 27.839844 44.230469 27.835938 Z M 32.234375 30.222656 C 31.964844 30.21875 31.707031 30.324219 31.515625 30.515625 C 31.125 30.90625 31.125 31.539063 31.515625 31.929688 C 31.90625 32.320313 32.539063 32.320313 32.929688 31.929688 C 33.320313 31.539063 33.320313 30.90625 32.929688 30.515625 C 32.746094 30.332031 32.496094 30.226563 32.234375 30.222656 Z M 47.792969 30.222656 C 47.519531 30.21875 47.261719 30.324219 47.070313 30.515625 C 46.679688 30.90625 46.679688 31.539063 47.070313 31.929688 C 47.460938 32.320313 48.09375 32.320313 48.484375 31.929688 C 48.875 31.539063 48.875 30.90625 48.484375 30.515625 C 48.300781 30.332031 48.050781 30.226563 47.792969 30.222656 Z M 50.171875 33.789063 C 50.035156 33.789063 49.902344 33.8125 49.78125 33.863281 C 49.269531 34.078125 49.027344 34.660156 49.238281 35.171875 C 49.449219 35.683594 50.035156 35.925781 50.546875 35.714844 C 51.054688 35.5 51.296875 34.917969 51.085938 34.40625 C 50.933594 34.035156 50.570313 33.792969 50.171875 33.789063 Z M 29.859375 33.792969 C 29.445313 33.78125 29.070313 34.027344 28.914063 34.40625 C 28.703125 34.917969 28.945313 35.503906 29.453125 35.714844 C 29.699219 35.816406 29.976563 35.816406 30.222656 35.714844 C 30.464844 35.613281 30.660156 35.417969 30.761719 35.171875 C 30.863281 34.925781 30.863281 34.652344 30.761719 34.40625 C 30.660156 34.160156 30.464844 33.964844 30.21875 33.863281 C 30.105469 33.820313 29.984375 33.792969 29.859375 33.792969 Z M 29 38 C 28.449219 38 28 38.449219 28 39 C 28 39.550781 28.449219 40 29 40 C 29.550781 40 30 39.550781 30 39 C 30 38.449219 29.550781 38 29 38 Z M 51 38 C 50.449219 38 50 38.449219 50 39 C 50 39.550781 50.449219 40 51 40 C 51.550781 40 52 39.550781 52 39 C 52 38.449219 51.550781 38 51 38 Z M 29.84375 42.207031 C 29.710938 42.207031 29.578125 42.234375 29.453125 42.285156 C 28.945313 42.496094 28.703125 43.082031 28.914063 43.59375 C 29.125 44.101563 29.710938 44.34375 30.21875 44.132813 C 30.730469 43.921875 30.972656 43.335938 30.761719 42.828125 C 30.609375 42.457031 30.246094 42.210938 29.84375 42.207031 Z M 50.1875 42.207031 C 49.773438 42.199219 49.398438 42.445313 49.238281 42.824219 C 49.027344 43.335938 49.269531 43.917969 49.78125 44.128906 C 50.292969 44.34375 50.875 44.101563 51.089844 43.589844 C 51.300781 43.078125 51.058594 42.496094 50.546875 42.28125 C 50.433594 42.234375 50.308594 42.210938 50.1875 42.207031 Z M 32.234375 45.777344 C 31.964844 45.773438 31.703125 45.878906 31.515625 46.070313 C 31.125 46.460938 31.125 47.09375 31.515625 47.484375 C 31.902344 47.875 32.539063 47.875 32.925781 47.484375 C 33.316406 47.09375 33.316406 46.460938 32.925781 46.070313 C 32.742188 45.886719 32.496094 45.78125 32.234375 45.777344 Z M 47.792969 45.78125 C 47.519531 45.773438 47.261719 45.878906 47.070313 46.070313 C 46.882813 46.257813 46.777344 46.511719 46.777344 46.777344 C 46.777344 47.042969 46.882813 47.296875 47.070313 47.484375 C 47.460938 47.875 48.09375 47.875 48.484375 47.484375 C 48.671875 47.296875 48.777344 47.042969 48.777344 46.777344 C 48.777344 46.511719 48.671875 46.257813 48.484375 46.070313 C 48.300781 45.886719 48.050781 45.78125 47.792969 45.78125 Z M 35.8125 48.160156 C 35.398438 48.152344 35.023438 48.398438 34.867188 48.78125 C 34.65625 49.289063 34.898438 49.875 35.40625 50.085938 C 35.917969 50.296875 36.503906 50.054688 36.714844 49.546875 C 36.925781 49.035156 36.683594 48.449219 36.171875 48.238281 C 36.058594 48.191406 35.9375 48.164063 35.8125 48.160156 Z M 44.21875 48.160156 C 44.085938 48.160156 43.953125 48.1875 43.828125 48.238281 C 43.316406 48.449219 43.074219 49.035156 43.285156 49.546875 C 43.5 50.054688 44.082031 50.296875 44.59375 50.085938 C 45.105469 49.875 45.347656 49.289063 45.136719 48.78125 C 44.980469 48.410156 44.621094 48.164063 44.21875 48.160156 Z M 40 49 C 39.449219 49 39 49.449219 39 50 C 39 50.550781 39.449219 51 40 51 C 40.550781 51 41 50.550781 41 50 C 41 49.449219 40.550781 49 40 49 Z"></path>
+                                </svg>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 30 30" class="fill-current">
+                                <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"></path>
+                            </svg>
+                        </a>
+                        <!-- Tiktok -->
+                        <a href="https://tiktok.com/@ariiiiiiisj" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                                <path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full-px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Project Terbaru</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure possimus dolore labore tenetur, dicta natus ducimus nemo expedita velit neque.</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/1.png" alt="1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-5 mb-3">Pemandangan Hijau</h3>
+                    <p class="font-medium text-base text-secondary">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt provident sapiente veniam.
+                    </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/2.png" alt="1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-5 mb-3">One Piece</h3>
+                    <p class="font-medium text-base text-secondary">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt provident sapiente veniam.
+                    </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/3.png" alt="1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-5 mb-3">Seperti Gunung yg di hujani meteor</h3>
+                    <p class="font-medium text-base text-secondary">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt provident sapiente veniam.
+                    </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/4.png" alt="1" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-dark text-xl mt-5 mb-3">Pemandangan Biru</h3>
+                    <p class="font-medium text-base text-secondary">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt provident sapiente veniam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio end -->
+
+    <!-- Clients Start -->
+    <section id="clients" class="pt-36 pb-32 bg-slate-800">
+        <div class="container">
+            <div class="w-full-px-4">
+                <div class="mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+                    <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Yang Pernah Bekerjasama</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio eos modi adipisci?</p>
+                </div>
+            </div>
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:placeholder-opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/clients/Google.svg.png" alt="">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:placeholder-opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/clients/Gojek.svg.png" alt="">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:placeholder-opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/clients/Tokopedia.svg.png" alt="">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:placeholder-opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/clients/Traveloka.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients End -->
+
+    <!-- Blog start -->
+    <section id="blog" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Tulisan Terkini</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempore animi sint eaque?.</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                        <img src="https://picsum.photos/360/200?random=1" alt="" class="w-full">
+                        <div class="py-8 px-6">
+                            <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
+                                <h3 class="">Tips Belajar Programming</h3>
+                            </a>
+                            <p class="font-md text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, impedit!</p>
+                            <a href="#" class="font-md text-sm text-white bg-primary py-2 px-4 rounded-lg hover:placeholder-opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                        <img src="https://picsum.photos/360/200?random=1" alt="" class="w-full">
+                        <div class="py-8 px-6">
+                            <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
+                                <h3 class="">Tips Belajar Programming</h3>
+                            </a>
+                            <p class="font-md text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sint culpa labore eos.</p>
+                            <a href="#" class="font-md text-sm text-white bg-primary py-2 px-4 rounded-lg hover:placeholder-opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                        <img src="https://picsum.photos/360/200?random=1" alt="" class="w-full">
+                        <div class="py-8 px-6">
+                            <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
+                                <h3 class="">Tips Belajar Programming</h3>
+                            </a>
+                            <p class="font-md text-base text-secondary mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nihil eveniet, corporis quasi cum hic!</p>
+                            <a href="#" class="font-md text-sm text-white bg-primary py-2 px-4 rounded-lg hover:placeholder-opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog end -->
+
+    <!-- Contact start -->
+    <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, obcaecati?</p>
+                </div>
+            </div>
+            <form>
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base text-primary font-bold">Nama</label>
+                        <input type="text" name="nama" id="name" class="w-full bg-slate-200 p-3 text-dark rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base text-primary font-bold">Email</label>
+                        <input type="email" name="email" id="name" class="w-full bg-slate-200 p-3 text-dark rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base text-primary font-bold">Pesan</label>
+                        <textarea type="text" name="nama" id="name" class="w-full bg-slate-200 p-3s text-dark rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+                    </div>
+                    <div class="w-full px-4">
+                        <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:shadow-lg hover:placeholder-opacity-80 transition duration-500">Kirim</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Contact end -->
+
+    <!-- Footer start -->
+    <footer class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">Ari</h2>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+                    <p>arii123@gmail.com</p>
+                    <p>Jl. Trans Kalimantan Desa Tatah Mesjid Kabupaten Barito Kuala</p>
+                    <p>Kalimantan Selatan</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Programming</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Teknologi</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Gaya Hidup</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#home" class="inline-block text-base hover:text-primary mb-3">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+                        </li>
+                        <li>
+                            <a href="#client" class="inline-block text-base hover:text-primary mb-3">Client</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="inline-block text-base hover:text-primary mb-3">blog</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-full pt-10 border-t border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+                    <!-- Youtube -->
+                    <a href="https://youtube.com" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                            <path d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z"></path>
+                            </svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://instagram.com/_arinaldisrya" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-500 hover:border-primary hover:bg-primary hover:text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 80 80" class="fill-current">
+                            <path d="M 26.816406 9 C 17.542969 9 10 16.542969 10 25.816406 L 10 52.183594 C 10 61.457031 17.542969 69 26.816406 69 L 53.183594 69 C 62.457031 69 70 61.457031 70 52.183594 L 70 25.816406 C 70 16.542969 62.457031 9 53.183594 9 Z M 26.816406 11 L 53.183594 11 C 61.375 11 68 17.625 68 25.816406 L 68 52.183594 C 68 60.375 61.375 67 53.183594 67 L 26.816406 67 C 18.625 67 12 60.375 12 52.183594 L 12 25.816406 C 12 17.625 18.625 11 26.816406 11 Z M 58 19.5 C 56.621094 19.5 55.5 20.621094 55.5 22 C 55.5 23.378906 56.621094 24.5 58 24.5 C 59.378906 24.5 60.5 23.378906 60.5 22 C 60.5 20.621094 59.378906 19.5 58 19.5 Z M 40 22 C 30.621094 22 23 29.621094 23 39 C 23 48.378906 30.621094 56 40 56 C 49.378906 56 57 48.378906 57 39 C 57 29.621094 49.378906 22 40 22 Z M 40 24 C 48.296875 24 55 30.703125 55 39 C 55 47.296875 48.296875 54 40 54 C 31.703125 54 25 47.296875 25 39 C 25 30.703125 31.703125 24 40 24 Z M 40 27 C 39.449219 27 39 27.449219 39 28 C 39 28.550781 39.449219 29 40 29 C 40.550781 29 41 28.550781 41 28 C 41 27.449219 40.550781 27 40 27 Z M 35.796875 27.835938 C 35.664063 27.835938 35.53125 27.859375 35.40625 27.910156 C 34.898438 28.125 34.65625 28.707031 34.867188 29.21875 C 35.078125 29.730469 35.664063 29.972656 36.171875 29.761719 C 36.683594 29.546875 36.925781 28.964844 36.714844 28.453125 C 36.5625 28.082031 36.199219 27.839844 35.796875 27.835938 Z M 44.230469 27.835938 C 43.816406 27.828125 43.441406 28.070313 43.285156 28.453125 C 43.074219 28.964844 43.316406 29.546875 43.828125 29.761719 C 44.335938 29.972656 44.921875 29.730469 45.132813 29.21875 C 45.34375 28.707031 45.101563 28.125 44.59375 27.910156 C 44.476563 27.863281 44.355469 27.839844 44.230469 27.835938 Z M 32.234375 30.222656 C 31.964844 30.21875 31.707031 30.324219 31.515625 30.515625 C 31.125 30.90625 31.125 31.539063 31.515625 31.929688 C 31.90625 32.320313 32.539063 32.320313 32.929688 31.929688 C 33.320313 31.539063 33.320313 30.90625 32.929688 30.515625 C 32.746094 30.332031 32.496094 30.226563 32.234375 30.222656 Z M 47.792969 30.222656 C 47.519531 30.21875 47.261719 30.324219 47.070313 30.515625 C 46.679688 30.90625 46.679688 31.539063 47.070313 31.929688 C 47.460938 32.320313 48.09375 32.320313 48.484375 31.929688 C 48.875 31.539063 48.875 30.90625 48.484375 30.515625 C 48.300781 30.332031 48.050781 30.226563 47.792969 30.222656 Z M 50.171875 33.789063 C 50.035156 33.789063 49.902344 33.8125 49.78125 33.863281 C 49.269531 34.078125 49.027344 34.660156 49.238281 35.171875 C 49.449219 35.683594 50.035156 35.925781 50.546875 35.714844 C 51.054688 35.5 51.296875 34.917969 51.085938 34.40625 C 50.933594 34.035156 50.570313 33.792969 50.171875 33.789063 Z M 29.859375 33.792969 C 29.445313 33.78125 29.070313 34.027344 28.914063 34.40625 C 28.703125 34.917969 28.945313 35.503906 29.453125 35.714844 C 29.699219 35.816406 29.976563 35.816406 30.222656 35.714844 C 30.464844 35.613281 30.660156 35.417969 30.761719 35.171875 C 30.863281 34.925781 30.863281 34.652344 30.761719 34.40625 C 30.660156 34.160156 30.464844 33.964844 30.21875 33.863281 C 30.105469 33.820313 29.984375 33.792969 29.859375 33.792969 Z M 29 38 C 28.449219 38 28 38.449219 28 39 C 28 39.550781 28.449219 40 29 40 C 29.550781 40 30 39.550781 30 39 C 30 38.449219 29.550781 38 29 38 Z M 51 38 C 50.449219 38 50 38.449219 50 39 C 50 39.550781 50.449219 40 51 40 C 51.550781 40 52 39.550781 52 39 C 52 38.449219 51.550781 38 51 38 Z M 29.84375 42.207031 C 29.710938 42.207031 29.578125 42.234375 29.453125 42.285156 C 28.945313 42.496094 28.703125 43.082031 28.914063 43.59375 C 29.125 44.101563 29.710938 44.34375 30.21875 44.132813 C 30.730469 43.921875 30.972656 43.335938 30.761719 42.828125 C 30.609375 42.457031 30.246094 42.210938 29.84375 42.207031 Z M 50.1875 42.207031 C 49.773438 42.199219 49.398438 42.445313 49.238281 42.824219 C 49.027344 43.335938 49.269531 43.917969 49.78125 44.128906 C 50.292969 44.34375 50.875 44.101563 51.089844 43.589844 C 51.300781 43.078125 51.058594 42.496094 50.546875 42.28125 C 50.433594 42.234375 50.308594 42.210938 50.1875 42.207031 Z M 32.234375 45.777344 C 31.964844 45.773438 31.703125 45.878906 31.515625 46.070313 C 31.125 46.460938 31.125 47.09375 31.515625 47.484375 C 31.902344 47.875 32.539063 47.875 32.925781 47.484375 C 33.316406 47.09375 33.316406 46.460938 32.925781 46.070313 C 32.742188 45.886719 32.496094 45.78125 32.234375 45.777344 Z M 47.792969 45.78125 C 47.519531 45.773438 47.261719 45.878906 47.070313 46.070313 C 46.882813 46.257813 46.777344 46.511719 46.777344 46.777344 C 46.777344 47.042969 46.882813 47.296875 47.070313 47.484375 C 47.460938 47.875 48.09375 47.875 48.484375 47.484375 C 48.671875 47.296875 48.777344 47.042969 48.777344 46.777344 C 48.777344 46.511719 48.671875 46.257813 48.484375 46.070313 C 48.300781 45.886719 48.050781 45.78125 47.792969 45.78125 Z M 35.8125 48.160156 C 35.398438 48.152344 35.023438 48.398438 34.867188 48.78125 C 34.65625 49.289063 34.898438 49.875 35.40625 50.085938 C 35.917969 50.296875 36.503906 50.054688 36.714844 49.546875 C 36.925781 49.035156 36.683594 48.449219 36.171875 48.238281 C 36.058594 48.191406 35.9375 48.164063 35.8125 48.160156 Z M 44.21875 48.160156 C 44.085938 48.160156 43.953125 48.1875 43.828125 48.238281 C 43.316406 48.449219 43.074219 49.035156 43.285156 49.546875 C 43.5 50.054688 44.082031 50.296875 44.59375 50.085938 C 45.105469 49.875 45.347656 49.289063 45.136719 48.78125 C 44.980469 48.410156 44.621094 48.164063 44.21875 48.160156 Z M 40 49 C 39.449219 49 39 49.449219 39 50 C 39 50.550781 39.449219 51 40 51 C 40.550781 51 41 50.550781 41 50 C 41 49.449219 40.550781 49 40 49 Z"></path>
+                            </svg>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 30 30" class="fill-current">
+                            <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"></path>
+                        </svg>
+                    </a>
+                    <!-- Tiktok -->
+                    <a href="https://tiktok.com/@ariiiiiiisj" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" class="fill-current">
+                            <path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <p class="font-medium text-xs text-slate-500 text-center">Dibuat dengan <span class="text-pink-500">💓</span> oleh <a href="https://instagram.com/_arinaldisrya" target="_blank" class="font-bold text-primary">Surya Arinaldi</a> menggunakan <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS</a></p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+<script src="dist/js/script.js"></script>
+</body>
+</html>
